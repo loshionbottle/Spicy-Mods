@@ -1,0 +1,55 @@
+// Config Schema & Includes 
+
+{
+    "Format": "2.0.0",
+    // Config 
+    "ConfigSchema": {
+      "SpicyDialogue": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Section": "Spicy Sam",
+        "Description": "Disable to turn off the spice. If no other dialogue mods are installed, reverts Spicy Sam back to Vanilla Sam :(."
+      },
+      "GiftDialogue": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Section": "Spicy Sam",
+        "Description": "Disable to turn off this mod's gift dialogue."
+      },
+      "FestivalDialogue": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Section": "Spicy Sam",
+        "Description": "Disable to turn off this mod's festival dialogue."
+      }
+    },
+
+    // Include files
+    "Changes": [
+      {
+        "LogName": "Sam Dialogue",
+        "Action": "Include",
+        "FromFile": "Data/Bachelors/Sam.json",
+        "When": {
+          "SpicyDialogue": "true"
+        }
+      },
+      {
+        "LogName": "Sam Gift Dialogue",
+        "Action": "Include",
+        "FromFile": "Data/Gifts/SamGift.json",
+        "When": {
+          "GiftDialogue": "true"
+        }
+      },
+      {
+        "LogName": "Sam Festival Dialogue",
+        "Action": "Include",
+        "FromFile": "Data/Festivals/SamFestival.json",
+        "When": {
+          "FestivalDialogue": "true"
+        }
+      }
+    ]
+  }
+  

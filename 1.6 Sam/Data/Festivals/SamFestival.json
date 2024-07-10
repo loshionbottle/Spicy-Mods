@@ -1,0 +1,267 @@
+// Festival Dialogue 
+
+{
+    "Changes": [
+        //Egg Festival
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13.xnb",
+            "When": {
+                "Language": "en",
+                "Hearts:Sam": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+            },
+            "Entries": {
+                "Sam": "I watched the Mayor putting down those eggs earlier.#$b#I can show you all the hiding spots if you'd like.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Dating"
+            },
+            "Entries": {
+                "Sam": "Can I help you collect eggs this year?$3#$b#I wanna make sure you win.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Married"
+            },
+            "Entries": {
+                "Sam_spouse": "You're so cute when you get all excited over this festival...$l#$b#Make sure you come back when you're done, I'll give you some extra eggs to make sure you win.$3"
+            }
+        },
+        //Flower Dance
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24.xnb",
+            "When": {
+                "Language": "en",
+                "Hearts:Sam": "0, 1, 2, 3"
+            },
+            "Entries": {
+                "Sam": "Don't even think about asking me to dance with you today.$5#$b#You've been teasing me wayyy too much.$5"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24.xnb",
+            "When": {
+                "Language": "en",
+                "Hearts:Sam": "4, 5, 6, 7, 8"
+            },
+            "Entries": {
+                "Sam": "You look amazing today.$h#$b#You won't ask anyone but me to dance with you, right?$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Dating"
+            },
+            "Entries": {
+                "Sam": "Go ahead, ask me to dance with you.$3#$b#I need to show everyone here who you belong to.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Married"
+            },
+            "Entries": {
+                "Sam_spouse": "Will you dance with me today, @?$h#$b#I want to remind everyone here that you're mine.$3"
+            }
+        },
+        //LUAU
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Dating"
+            },
+            "Entries": {
+                "Sam": "Now that we're here, I'm thinking I should take you on more beach dates.$3#$b#I'd love to see what you'd look like in a tiny little bathing suit...$l"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Married"
+            },
+            "Entries": {
+                "Sam_spouse": "I'm gonna have so much sand to wash off today...$3#$b#Want to join me?$3"
+            }
+        },
+        //Moonlight Jellies
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28.xnb",
+            "When": {
+                "Language": "en",
+                "Hearts:Sam": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+            },
+            "Entries": {
+                "Sam": "Hey, there's a little secluded part of the beach over there, want to join me?$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Dating"
+            },
+            "Entries": {
+                "Sam": "You look beautiful under the moonlight...$10#$b#I really want to make out with you.$l"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Married"
+            },
+            "Entries": {
+                "Sam_spouse": "I've always loved how the jellyfish made your face glow.#$b#I can't wait to see it again.$l"
+            }
+        },
+        //Fall Fair
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16.xnb",
+            "When": {
+                "Language": "en",
+                "Hearts:Sam": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+            },
+            "Entries": {
+                "Sam": "I had my fortune read earlier...#$b#She said I was 'destined for an epic love', I wonder who it could be with...$10"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Dating"
+            },
+            "Entries": {
+                "Sam": "Hey, baby. Do you need help winning any of the games?$3#$b#I'd love to win you a teddy bear.$10"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Married"
+            },
+            "Entries": {
+                "Sam_spouse": "I got something at home for you in case you don't get everything you want here today.$3#$b#I'll give it to you tomorrow.$h"
+            }
+        },
+        //Spirit's Eve
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27.xnb",
+            "When": {
+                "Language": "en",
+                "Hearts:Sam": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+            },
+            "Entries": {
+                "Sam": "I was wondering when you'd show up!$h#$b#Do you wanna get a bite to eat?$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Dating"
+            },
+            "Entries": {
+                "Sam": "Hey, you found me!$h#$b#We are alone if you wanna make out or something...$10"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Married"
+            },
+            "Entries": {
+                "Sam_spouse": "Hey baby, I was wondering when you'd show up!$h#$b#There's a quiet corner around here that we could go make out in...$l"
+            }
+        },
+        //Ice Festival
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8.xnb",
+            "When": {
+                "Language": "en",
+                "Hearts:Sam": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+            },
+            "Entries": {
+                "Sam": "Are you participating this year? I would, but I don't know how to fish...$3#$b#Maybe you can teach me one of these days.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Dating"
+            },
+            "Entries": {
+                "Sam": "Are you cold? Your nose is really red.$8#$b#You can borrow my jacket if you'd like.$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Married"
+            },
+            "Entries": {
+                "Sam_spouse": "I brought an extra jacket for you today, I knew you'd get cold at some point.#$b#What? You know you like mine the best.$3"
+            }
+        },
+        //Winter Feast
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Dating"
+            },
+            "Entries": {
+                "Sam": "Even if you're not my secret gifter this year, I know what kind of gift you could give me later...$l"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25.xnb",
+            "When": {
+                "Language": "en",
+                "Relationship:Sam": "Married"
+            },
+            "Entries": {
+                "Sam_spouse": "Here, I wanted to give you this before all the actual gift-giving starts.[74]$3#$b#I love you...$l"
+            }
+        }
+    ]
+}

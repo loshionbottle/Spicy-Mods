@@ -1,0 +1,11 @@
+{
+  "Name": "Spicy Sam 2.0.1",
+  "Author": "loshionbottle",
+  "Description": "Adds over 300 lines of spicy dialogue for Sam.",
+  "Version": "2.0.1",
+  "UniqueID": "loshionbottle.spicysam",
+  "UpdateKeys": [ "Nexus:22892" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
