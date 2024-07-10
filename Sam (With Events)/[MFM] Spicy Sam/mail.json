@@ -1,0 +1,9 @@
+[
+    {
+        "Id": "SpicySam.OneHeartMail",
+        "GroupId": "SpicySam.Mail",
+        "Title": "Secret Admirer Pt.1",
+        "Text": "@,^^You should be more careful walking around alone at night. I almost couldn't contain myself when I saw you alone... ^^Too bad we were interrupted.^^^-Your Secret Admirer",
+        "EventsSeen": ["SpicySam1Heart"]
+    }
+]

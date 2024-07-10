@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+                "LogName": "Sam's new 1 Heart Event",
+                "Action": "EditData",
+                "Target": "Data/Events/Town.xnb",
+                "Entries": {
+                    "SpicySam1Heart/f Sam 250/t 2200 2400": "nightTime/29 69/farmer 29 65 2 Sam 29 80 0/skippable/move farmer 0 3 2/pause 1000/faceDirection farmer 1/pause 200/faceDirection farmer 2/pause 200/faceDirection farmer 3/pause 200/faceDirection farmer 2/emote farmer 28/pause 200/message \"Though the town looks empty, you can't help but feel someone's presence...\"/message \"It's almost as if someone's watching you...\"/pause 500/playSound leafrustle/pause 500/emote farmer 8/pause 1000/playSound leafrustle/playSound leafrustle/pause 500/emote farmer 16/startJittering/pause 1000/stopJittering/message \"You hear someone call out your name... that voice sounds familiar...\"/pause 500/emote farmer 16/move Sam 0 -10 0/emote farmer 32/speak Sam \"Hey, @. What are you doing out here so late?$7#$b#Don't you know it's dangerous to be out here alone at night?$5\"/pause 500/message \"You wonder to yourself what he's even doing out here...\"/pause 200/message \"Could he have been the one watching you? You should probably play it cool...\"/pause 200/emote farmer 60/pause 500/speak Sam \"Well, no matter. Let me walk you home.\"/pause 200/question fork1 \"Let Sam take you home?#Yes#No\"/fork denyHome/pause 200/speak Sam \"That's a good boy.$3^That's a good girl.$3\"/pause 200/emote farmer 32/mail afterTakeHomeMail/globalFade/viewport -1000 -1000/pause 500/end newDay",
+                    "denyHome": "pause 200/speak Sam \"I won't take that as an answer. You're going home, now.$5\"/pause 200/emote farmer 12/mail afterTakeHomeMail/globalFade/viewport -1000 -1000/pause 500/end newDay"
+                }
+        }
+    ]
+}

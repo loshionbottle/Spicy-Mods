@@ -1,0 +1,18 @@
+{
+	"Name": "[MFM] Spicy Sam",
+	"Author": "loshionbottle",
+	"Version": "3.0.0",
+	"Description": "Adds custom mail to go along with [CP] Spicy Sam.",
+	"UniqueID": "loshionbottle.spicysammail",
+	"MinimumApiVersion": "3.8.0",
+	"UpdateKeys": [ "Nexus:22892" ],
+	"Dependencies": [
+		{
+			"UniqueID": "loshionbottle.spicysam"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+        "MinimumVersion": "1.16.0-alpha"
+	}
+}

@@ -1,0 +1,94 @@
+{
+    "Format": "2.0.0",
+    // Config 
+    "ConfigSchema": {
+      "NOTMarriedSpicyDialogue": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Section": "Dialogue",
+        "Description": "Disable to turn off the pre-marriage spice. If no other dialogue mods are installed, reverts Spicy Sam back to Vanilla Sam :(."
+      },
+      "MarriageSpicyDialogue": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Section": "Dialogue",
+        "Description": "Disable to turn off the post-marriage spice. If no other dialogue mods are installed, reverts Spicy Marriage Sam back to Vanilla Sam :(."
+      },
+      "GiftDialogue": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Section": "Dialogue",
+        "Description": "Disable to turn off this mod's gift dialogue."
+      },
+      "FestivalDialogue": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Section": "Dialogue",
+        "Description": "Disable to turn off this mod's festival dialogue."
+      },
+      "NewEvents": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Section": "Events",
+        "Description": "Disable to turn off new events."
+      },
+      "NewVanillaEvents": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Section": "Events",
+        "Description": "Disable to turn off rewritten versions of the vanilla heart events."
+      }
+    },
+
+    // Include files
+    "Changes": [
+      {
+        "LogName": "Sam Pre-Marriage Dialogue",
+        "Action": "Include",
+        "FromFile": "Assets/Dialogue/SamPremarriage.json",
+        "When": {
+          "NOTMarriedSpicyDialogue": "true"
+        }
+      },
+      {
+        "LogName": "Sam Post-Marriage Dialogue",
+        "Action": "Include",
+        "FromFile": "Assets/Dialogue/SamMarriage.json",
+        "When": {
+          "MarriageSpicyDialogue": "true"
+        }
+      },
+      {
+        "LogName": "Sam Gift Dialogue",
+        "Action": "Include",
+        "FromFile": "Assets/Dialogue/SamGift.json",
+        "When": {
+          "GiftDialogue": "true"
+        }
+      },
+      {
+        "LogName": "Sam Festival Dialogue",
+        "Action": "Include",
+        "FromFile": "Assets/Dialogue/SamFestival.json",
+        "When": {
+          "FestivalDialogue": "true"
+        }
+      },
+      {
+        "LogName": "Sam's New Events",
+        "Action": "Include",
+        "FromFile": "Assets/Events/SamNewEvents.json",
+        "When": {
+          "NewEvents": "true"
+        }
+      },
+      {
+        "LogName": "Sam's Rewritten Vanilla Events",
+        "Action": "Include",
+        "FromFile": "Assets/Events/SamVanillaEvents.json",
+        "When": {
+          "NewVanillaEvents": "true"
+        }
+      }
+    ]
+  }

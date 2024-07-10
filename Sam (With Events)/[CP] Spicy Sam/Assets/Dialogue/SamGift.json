@@ -1,0 +1,50 @@
+// Gifting Dialogue 
+// LISTEN Y'ALL GOT NO IDEA HOW LONG I WAS STUCK ON THIS BECAUSE I PUT A FUCKING 0 INSTEAD OF O. WHO MADE THEM LOOK SO SIMILAR????
+
+{
+    "Changes": [
+        // Unmarried/Not Dating/Not Engaged
+        {
+            "LogName": "Sam's Basic Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                // Cactus Fruit
+                "AcceptGift_(O)90": "This is my favorite! How'd you know?$h#$b#Wait, aren't these super hard to get, you don't have to do all that for me.$10",
+                // Maple Bar
+                "AcceptGift_(O)731": "Oh, man I haven't had one of these in a while!$h#$b#Do you wanna split it with me? I bet this one's just as sweet as you.$3",
+                // Pizza
+                "AcceptGift_(O)206": "Oh wow, is this all for me?$h#$b#I think I might actually kiss you.$10",
+                // Tigers Eye
+                "AcceptGift_(O)562": "Oh wow, do you know how rare these are??$8#$b#Are you trying to make me marry you by giving me this?$h#$b#Don't tempt me, I'll pick out a pendant right now.$3",
+
+                // Birthday Universals
+                "AcceptBirthdayGift_Positive": "Hey so you got me a gift today after all!$h#$b#I swear, getting this many gifts from everyone including a super cute farmer is super flattering.$10",
+                "AcceptBirthdayGift_Negative": "...$2#$b#I kinda expected more from you given it's my birthday and all...$2"
+            }
+        },
+        // Married/Engaged/Dating
+        {
+            "LogName": "Sam's Engaged & Marriage Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "When": {
+                "Relationship:Sam": "Dating, Engaged, Married"
+            },
+            "Entries": {
+                // Cactus Fruit
+                "AcceptGift_(O)90": "You always know what to do to make me love you more, huh?$l",
+                // Maple Bar
+                "AcceptGift_(O)731": "Oh, I love these!$h#$b#Do you wanna split it with me? I bet this one's just as sweet as you.$l",
+                // Pizza
+                "AcceptGift_(O)206": "You know exactly how to make my day, huh?$10#$b#Actually...$l#$b#I think I'd rather eat you out than this pizza right now...$l",
+                // Tigers Eye
+                "AcceptGift_(O)562": "You know I love these, but you aren't doing anything to put yourself in harmsway to get me this, right?#9",
+
+                // Birthday Universals
+                "AcceptBirthdayGift_Positive": "You remembered!$10#$b#Now, since it's my birthday, you'll let me ask for anything, right?$l",
+                "AcceptBirthdayGift_Negative": "...$2#$b#I thought you knew me better than this...$5"
+            }
+        }
+    ]
+}

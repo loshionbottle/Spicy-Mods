@@ -1,0 +1,58 @@
+{
+    "Changes": [
+        {
+            "LogName": "Jodi's Beginning Relationship w/Sam Self-Aware Dialogue",
+            "Action": "EditData",
+            "Target": "Dialogue/Characters/Jodi",
+            "Entries": {
+
+            }
+        },
+        {
+            "LogName": "Jodi's Farmer is Dating Sam Self-Aware Dialogue",
+            "Action": "EditData",
+            "Target": "Dialogue/Characters/Jodi",
+            "When": {
+                "Relationship:Sam": "Dating"
+            },
+            "Entries": {
+
+            }
+        },
+        {
+            "LogName": "Jodi's Farmer is Engaged to Sam Self-Aware Dialogue",
+            "Action": "EditData",
+            "Target": "Dialogue/Characters/Jodi",
+            "When": {
+                "Relationship:Sam": "Engaged"
+            },
+            "Entries": {
+
+            }
+        },
+        {
+            "LogName": "Jodi's Farmer is Married to Sam Self-Aware Dialogue",
+            "Action": "EditData",
+            "Target": "Dialogue/Characters/Jodi",
+            "Entries": {
+
+            }
+        },
+        {
+            "LogName": "Kent's Self-Aware Dialogue",
+            "Action": "EditData",
+            "Target": "Dialogue/Characters/Kent",
+            "Entries": {
+
+            }
+        },
+        {
+            "LogName": "Vincent's Self-Aware Dialogue",
+            "Action": "EditData",
+            "Target": "Dialogue/Characters/Vincent",
+            "Entries": {
+
+            }
+        }
+    ]
+}
