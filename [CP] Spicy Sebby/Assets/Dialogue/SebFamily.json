@@ -1,0 +1,33 @@
+// Family Dialogue, remember to change the days 
+
+{
+    "Changes": [
+        {
+            "LogName": "Robin's Self-Aware Dialogue",
+            "Action": "EditData",
+            "Target": "Dialogue/Characters/Robin",
+            "Entries": {
+                "Fri": "Sebastian's always been a good kid.#$b#He's been changing a bit lately, though.$2#$b#I wonder what's going on....",
+                "Wed": "I'm glad that Sebastian's been getting out more!$1#$b#I just wish I knew where he was going...."
+            }
+        },
+        {
+            "LogName": "Maru's Self-Aware Dialogue",
+            "Action": "EditData",
+            "Target": "Dialogue/Characters/Maru",
+            "Entries": {
+                "Tue": "Sebastian and I have never been close, and I'm completely okay with that.",
+                "Sat": "I'm glad Sebastian just stays in the basement all day so I don't have to deal with him.#$b#He's so moody.$5"
+            }
+        },
+        {
+            "LogName": "Abismell's Self-Aware Dialogue",
+            "Action": "EditData",
+            "Target": "Dialogue/Characters/Abigail",
+            "Entries": {
+                "Sun": "Everyone always used to say that Sebastian and I would end up together.$4#$b#I doubt that's going to happen now.$5",
+                "Wed": "Sebastian will realize that he likes me someday.$2"
+            }
+        }
+    ]
+}

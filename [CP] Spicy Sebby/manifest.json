@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] Spicy Sebastian",
+    "Author": "loshionbottle & mattymattloaf",
+    "Description": "Adds over 400 lines of spicy dialogue with some new creepy events!",
+    "Version": "1.0.0",
+    "UniqueID": "loshionloaf.spicyseb",
+    "UpdateKeys": [ "Nexus:24386" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

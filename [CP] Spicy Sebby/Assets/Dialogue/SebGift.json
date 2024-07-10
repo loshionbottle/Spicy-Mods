@@ -1,0 +1,49 @@
+// Gifting Dialogue 
+
+{
+    "Changes": [
+        // Unmarried/Not Dating/Not Engaged
+        {
+            "LogName": "Seb's Basic Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "AcceptGift_(O)84": "How'd you know that I love these?$1#$b#Thanks!$1",
+                "AcceptGift_(O)575": "Obsidian always makes me think of one of my favorite games: CaveCraft.$7 Thanks, @!$1",
+                "AcceptGift_(O)236": "This looks really good, @.$7#$b#I can't wait to eat it.$1",
+                "AcceptGift_(O)227": "There's a really good restaurant in Zuzu City that sells sashimi.#$b#Sashimi from you is way better, though.$1",
+                "AcceptGift_(O)305": "Aren't void eggs just the coolest eggs you've ever seen?$7#$b#I wonder if I could hatch it....$1#$b#Thanks for giving me one, @.$7",
+                "AcceptGift_(TR)FrogEgg": "I can finally start my army of frogs!$1#$b#This is so great, @.$4#$b#Thanks!$1",
+                "AcceptGift_(O)Book_Defense": "I don't know how I feel about the whole 'thick' part of this, but I'd say I'm pretty nimble.#$b#I'll give it a read.$7",
+                "AcceptGift_(O)StardropTea": "Oh, wow. I can't believe you're giving this to me.$4#$b#@, this is awesome!$1",
+
+                // Birthday Universals
+                "AcceptBirthdayGift_Positive": "I wasn't really expecting a birthday present, so... thanks. I really appreciate it.$1",
+                "AcceptBirthdayGift_Negative": "Uh... why would you ever think I'd like this?$2#$b#Kind of an insulting birthday present, don't you think?$5"
+            }
+        },
+        // Married/Engaged/Dating
+        {
+            "LogName": "Seb's Engaged & Marriage Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "When": {
+                "Relationship:Sebastian": "Dating, Engaged, Married"
+            },
+            "Entries": {
+                "AcceptGift_(O)84": "Thanks, gem.$1#$b#Makes me think of the one I gave you way back when.$4",
+                "AcceptGift_(O)575": "I love how smooth obsidian is, but it doesn't even begin to compare to your lovely skin.$4",
+                "AcceptGift_(O)236": "Did you make this with love?$7#$b#I bet it'd taste even better if you made it while you were naked.$4",
+                "AcceptGift_(O)227": "You didn't hurt yourself while preparing this, did you?#$b#No?#$b#Okay, good. I can enjoy it then.$7#$b#Thanks, gem.$1",
+                "AcceptGift_(O)305": "Isn't it awesome how they're warm to the touch like this?$1#$b#I can make you warm with my touch.$7#$b#What do you say, gem?$4",
+                "AcceptGift_(TR)FrogEgg": "Since you have all of your farm animals, I can have my frog army, right?$1",
+                "AcceptGift_(O)Book_Defense": "You know I've got plenty of stamina, gem.$4",
+                "AcceptGift_(O)StardropTea": "It'd be nice and relaxing to drink this while you blew me.$7#$b#How about it, gem?$4",
+
+                // Birthday Universals
+                "AcceptBirthdayGift_Positive": "I knew from the moment I laid eyes on you that you'd just get me.$1#$b#Thanks for the present, gem.$4",
+                "AcceptBirthdayGift_Negative": "Are you kidding me?$5#$b#Do I need to punish you?$5"
+            }
+        }
+    ]
+}
